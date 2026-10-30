@@ -28,6 +28,7 @@ I plan to validate the simulations against analytical trajectories in a uniform 
 ## Experimental work - 1st place in Germany’s national Jugend testet competition 
 
 Together with a teammate, I won first place nationally in **Jugend testet 2025**, a competition organized by **Stiftung Warentest**, Germany’s well-known independent consumer testing organization, for our investigation of kitchen paper towels.
+
 We used Arduino code to control a motorized test arm and Python to process, analyze, and visualize experimental data. This experience strengthened my interest in reproducible experiments, measurement, and the connection between hardware and data.
 
 https://www.test.de/Jugend-testet-2025-Ausgezeichnete-Talente-6223403-0/
