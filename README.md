@@ -19,7 +19,9 @@ I'm developing a physics project exploring how magnetic fields influence charged
 
 I plan to simulate particle trajectories using the Lorentz force, visualize motion in different magnetic-field configurations, and investigate how initial velocity and pitch angle affect confinement and escape.
 
-**Focus:** Connecting physical explanations with numerical simulations and clear visualizations.
+**My focus:** Connecting physical explanations with numerical simulations and clear visualizations.
+
+**Status:** Planning and simulation design.
 
 ## Experimental work
 
