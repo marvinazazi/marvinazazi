@@ -1,20 +1,17 @@
 # Hi, I'm Marvin 👋
 
-I'm a high school student in Germany interested in physics (as my N-body simulation profile picture might suggest), chemistry, mathematics, and programming. I enjoy turning ideas into simulations and building systems that connect software with the real world.
+I'm a secondary school student in Germany interested in physics, mathematics, chemistry, and programming. I'm especially drawn to problems where theoretical predictions, numerical simulations, and experimental measurements can be compared.
 
 My main interests are computational physics/chemistry, robotics, and AI.
 
 ## What I'm working on
 
-### AI-assisted robotic arm
+### Voice-controlled, AI-assisted robotic arm with grasp recovery
+**Goal:** A tabletop arm that sorts unfamiliar objects into freely placed containers from spoken commands, and detects and recovers from failed grasps.
 
-I'm designing a voice-controlled tabletop robot that can identify unfamiliar objects and sort them into freely positioned containers.
+**My focus:** Workspace calibration (ArUco markers, iPhone LiDAR depth), inverse kinematics, motion control, grasp verification with retry logic, and clarifying questions for ambiguous commands. OpenAI Whisper is planned for speech recognition, while a Gemini Flash model accessed through the API will support visual understanding and task interpretation. Both components will use modular interfaces so they can be replaced independently.
 
-The planned system combines Whisper for speech recognition, the Gemini API for visual understanding and task interpretation, and local software for calibration, inverse kinematics, and motion control. I'm also exploring a Raspberry Pi as an interface between the main computer and the robotic arm, ArUco markers for workspace calibration, and iPhone LiDAR for depth measurements.
-
-My goals include checking whether a grasp succeeded, retrying failed actions, adapting the grasp to the object, and asking for clarification when a command is ambiguous.
-
-**Status:** Planning and hardware evaluation, with the SO-101 as the preferred arm.
+**Status:** Design and hardware evaluation (SO-101 as the preferred arm).
 
 ### Magnetic bottles & auroras
 
@@ -56,7 +53,7 @@ https://www.suedkurier.de/region/hochrhein/bad-saeckingen/ganz-schoen-pfiffig-sa
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" title="Raspberry Pi" width="40" height="40" />
 </p>
 
-- **Currently exploring for my robotics project:** OpenCV, ArUco markers, the Gemini API, Whisper, and iPhone LiDAR
-- **Currently learning for my home server:** Docker, Docker Compose, Ubuntu Server, SSH, networking, and backups.
 
-I'm building this portfolio around a few substantial projects, with an emphasis on explaining the physics, documenting design decisions, and reporting what works and what still needs improvement.
+## How I work
+
+I focus on substantial projects, combining theoretical understanding with implementation and testing. I aim to make my work reproducible, explain design decisions, and document both successful results and limitations.
