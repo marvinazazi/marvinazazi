@@ -9,17 +9,19 @@ My main interests are computational physics/chemistry, robotics, and AI.
 ### Voice-controlled, AI-assisted robotic arm with grasp recovery
 **Goal:** A tabletop arm that sorts unfamiliar objects into freely placed containers from spoken commands, and detects and recovers from failed grasps.
 
-**My focus:** Workspace calibration (ArUco markers, iPhone LiDAR depth), inverse kinematics, motion control, grasp verification with retry logic, and clarifying questions for ambiguous commands. OpenAI Whisper is planned for speech recognition, while a Gemini Flash model accessed through the API will support visual understanding and task interpretation. Both components will use modular interfaces so they can be replaced independently.
+**Planned development:** Workspace calibration using ArUco markers, evaluation of iPhone LiDAR for depth measurements, inverse kinematics, motion control, and grasp verification with bounded retry logic. The robot should also ask for clarification when commands are ambiguous.
 
-**Status:** Design and hardware evaluation (SO-101 as the preferred arm).
+OpenAI Whisper is planned for speech recognition, while the Gemini API will support visual understanding and task interpretation. I plan to explore ROS 2 to organize perception, task planning, and motion control into separate nodes with clearly defined interfaces, allowing individual components to be tested and replaced independently.
+
+**Status:** Planning and hardware evaluation, with the SO-101 as the preferred arm.
 
 ### Magnetic bottles & auroras
 
-I'm developing a physics project exploring how magnetic fields influence charged-particle motion and how magnetic mirroring relates to auroras.
+**Planned approach:** Simulate charged-particle trajectories under the Lorentz force using a Boris integrator and compare selected results with a fourth-order Runge–Kutta method (RK4).
 
-I plan to simulate particle trajectories using the Lorentz force, visualize motion in different magnetic-field configurations, and investigate how initial velocity and pitch angle affect confinement and escape.
+I plan to validate the simulations against analytical trajectories in a uniform magnetic field, investigate time-step convergence, and measure energy drift over long integration times. For magnetic-bottle configurations, I will vary initial speed and pitch angle and compare confinement and escape with predictions from magnetic-mirror theory.
 
-**My focus:** Connecting physical explanations with numerical simulations and clear visualizations.
+**Focus:** Connecting physical explanations with numerical simulations, quantified numerical errors, and clear visualizations.
 
 **Status:** Planning and simulation design.
 
