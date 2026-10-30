@@ -1,6 +1,6 @@
 # Hi, I'm Marvin 👋
 
-I'm a high school student in Germany interested in physics, chemistry, mathematics, and programming. I enjoy turning ideas into simulations and building systems that connect software with the real world.
+I'm a high school student in Germany interested in physics (as my N-body simulation profile picture might suggest), chemistry, mathematics, and programming. I enjoy turning ideas into simulations and building systems that connect software with the real world.
 
 My main interests are computational physics/chemistry, robotics, and AI.
 
