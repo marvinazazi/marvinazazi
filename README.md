@@ -1,4 +1,4 @@
-# Hi, I'm Marvin
+# Hi, I'm Marvin 👋
 
 I'm a high school student in Germany interested in physics, chemistry, mathematics, and programming. I enjoy turning ideas into simulations and building systems that connect software with the real world.
 
