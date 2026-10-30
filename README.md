@@ -41,18 +41,20 @@ https://www.suedkurier.de/region/hochrhein/bad-saeckingen/ganz-schoen-pfiffig-sa
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" title="Java" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" alt="Arduino" title="Arduino" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy" width="40" height="40" />
   <img src="https://scipy.org/images/logo.svg" alt="SciPy" title="SciPy" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas" title="Pandas" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" title="Matplotlib" width="40" height="40" />
+  <img src="https://seaborn.pydata.org/_static/logo-mark-lightbg.svg" alt="Seaborn" title="Seaborn" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="40" height="40" />
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Transformers" title="Hugging Face Transformers" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" alt="Arduino" title="Arduino" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" title="Raspberry Pi" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" alt="Ubuntu" title="Ubuntu" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="40" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" title="Raspberry Pi" width="40" height="40" />
 </p>
-
 
 ## How I work
 
