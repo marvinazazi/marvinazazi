@@ -33,8 +33,6 @@ https://www.suedkurier.de/region/hochrhein/bad-saeckingen/ganz-schoen-pfiffig-sa
 
 **Code and visualizations coming soon.**
 
-## Tools & technologies
-
 ## Languages and Tools
 
 <p>
