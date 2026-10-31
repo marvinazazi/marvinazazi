@@ -1,4 +1,4 @@
-<img src="./marvin-terminal-banner.svg" alt="Hi, I'm Marvin" width="100%">
+<img src="./marvin-terminal-banner.svg?v=2" alt="Hi, I'm Marvin" width="100%">
 
 ## What I'm working on
 
