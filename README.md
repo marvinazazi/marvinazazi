@@ -2,7 +2,7 @@
 
 ## What I'm working on
 
-### Voice-controlled, AI-assisted robotic arm with grasp recovery
+### 🤖 Voice-controlled, AI-assisted robotic arm with grasp recovery
 **Goal:** A tabletop arm that sorts unfamiliar objects into freely placed containers from spoken commands, and detects and recovers from failed grasps.
 
 **Planned development:** Workspace calibration using ArUco markers, evaluation of iPhone LiDAR for depth measurements, inverse kinematics, motion control, and grasp verification with bounded retry logic. The robot should also ask for clarification when commands are ambiguous.
@@ -11,7 +11,7 @@ OpenAI Whisper is planned for speech recognition, while the Gemini API will supp
 
 **Status:** Planning and hardware evaluation, with the SO-101 as the preferred arm.
 
-### Magnetic bottles & auroras
+### 🌌 Magnetic bottles & auroras
 
 **Planned approach:** Simulate charged-particle trajectories under the Lorentz force using a Boris integrator and compare selected results with a fourth-order Runge–Kutta method (RK4).
 
@@ -21,7 +21,7 @@ I plan to validate the simulations against analytical trajectories in a uniform 
 
 **Status:** Planning and simulation design.
 
-## Experimental work - 1st place in Germany’s national Jugend testet competition 
+## 🔬 Experimental work - 1st place in Germany’s national Jugend testet competition 
 
 Together with a teammate, I won first place nationally in **Jugend testet 2025**, a competition organized by **Stiftung Warentest**, Germany’s well-known independent consumer testing organization, for our investigation of kitchen paper towels.
 
