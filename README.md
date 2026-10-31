@@ -27,9 +27,9 @@ Together with a teammate, I won first place nationally in **Jugend testet 2025**
 
 We programmed an ESP32 microcontroller to control a motorized test arm and transmit experimental data over Wi-Fi to a Python-based system for automated data processing, statistical analysis, and visualization. This experience strengthened my interest in reproducible experiments, measurement, and the connection between hardware and data.
 
-https://www.test.de/Jugend-testet-2025-Ausgezeichnete-Talente-6223403-0/
-
 https://www.suedkurier.de/region/hochrhein/bad-saeckingen/ganz-schoen-pfiffig-saeckinger-schueler-holen-ersten-preis-beim-bundeswettbewerb-jugend-testet;art372588,12430724
+
+https://www.test.de/Jugend-testet-2025-Ausgezeichnete-Talente-6223403-0/
 
 **Code and visualizations coming soon.**
 
