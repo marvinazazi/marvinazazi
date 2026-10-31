@@ -1,8 +1,4 @@
-# Hi, I'm Marvin 👋
-
-I'm a secondary school student in Germany interested in physics, mathematics, chemistry, and programming. I'm especially drawn to problems where theoretical predictions, numerical simulations, and experimental measurements can be compared.
-
-My main interests are computational physics/chemistry, robotics, and AI.
+<img src="./marvin-terminal-banner.svg" alt="Hi, I'm Marvin" width="100%">
 
 ## What I'm working on
 
