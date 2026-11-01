@@ -2,19 +2,23 @@
 
 ## What I'm working on
 
-### Voice-Controlled, AI-Assisted Robotic Arm with Adaptive Grasp Recovery
+### Voice-Controlled, AI-Assisted Robotic Arm with Uncertainty-Aware Control and Adaptive Grasp Recovery
 
-**Goal:** Develop a voice-controlled robotic arm capable of identifying and sorting previously unseen objects into freely positioned containers, autonomously verifying grasp success, detecting failures, and adapting its actions through visual feedback.
+**Goal:** Develop a voice-controlled robotic arm capable of identifying and sorting previously unseen objects into freely positioned containers. The system aims to autonomously verify grasp success, recover from failures, and make reliable manipulation decisions under uncertainty.
 
-**Planned Development:** The system will combine workspace calibration using ArUco markers, camera-based object localization, inverse kinematics, and closed-loop visual servoing for precise manipulation. Depth sensing, including stereo vision and dedicated depth cameras, will be evaluated to improve spatial perception and grasp accuracy.
+**Planned Development:** The system will combine workspace calibration using ArUco markers, camera-based object localization, inverse kinematics, and closed-loop visual servoing. Depth-sensing approaches, including stereo vision and dedicated depth cameras, will be evaluated to improve spatial perception and grasp accuracy.
 
-A key focus will be **adaptive grasp recovery**, combining visual feedback with servo telemetry to detect unsuccessful grasps, estimate possible failure causes, and execute bounded corrective actions rather than simply repeating failed movements.
+A key focus will be **adaptive grasp recovery**, combining visual feedback with servo telemetry to detect unsuccessful grasps, identify potential failure causes, and execute bounded corrective actions rather than repeatedly attempting the same movement.
 
-**AI Integration:** OpenAI Whisper is planned for speech recognition, while the Gemini API will support object recognition, natural-language task interpretation, and clarification of ambiguous commands. A local web interface will provide manual control, live camera feedback, and execution monitoring.
+**Uncertainty-Aware Control & Hard Gate:** A central objective is to develop an uncertainty-aware validation framework that evaluates positional uncertainty, sensor reliability, and motion constraints before executing AI-generated actions. An independent **hard gate** will authorize, reject, or request revalidation of proposed actions based on predefined safety constraints and uncertainty thresholds. The system will explore risk-adaptive decision-making while ensuring that uncertain or invalid commands cannot directly control the robot's actuators.
 
-**Software Architecture:** The software will follow a modular architecture separating perception, task planning, motion control, and failure recovery. Hugging Face LeRobot will be evaluated for hardware integration, with ROS 2 and MoveIt considered for more advanced motion planning and collision avoidance.
+**AI Integration:** OpenAI Whisper is planned for speech recognition, while the Gemini API will support visual understanding, natural-language task interpretation, and clarification of ambiguous commands. A local web interface will provide manual control, live camera feedback, and execution monitoring.
 
-**Experimental Evaluation:** A central research objective will be to investigate how different feedback mechanisms influence the reliability of autonomous robotic manipulation. Controlled experiments will compare **open-loop grasping, vision-based grasp verification, and combined visual and servo-based feedback with adaptive recovery strategies**. Performance will be evaluated using grasp success rates, recovery effectiveness, positioning accuracy, and task completion times across different objects and container configurations.
+**Software Architecture:** The software will follow a modular architecture separating perception, task planning, motion control, uncertainty assessment, and failure recovery. Hugging Face LeRobot will be evaluated for hardware integration, with ROS 2 and MoveIt considered for advanced motion planning and collision avoidance.
+
+**Experimental Evaluation:** A central research objective is to investigate how different feedback and uncertainty-management strategies influence the reliability of autonomous robotic manipulation. Controlled experiments will compare **open-loop grasping, vision-based grasp verification, multimodal feedback with adaptive recovery, and uncertainty-aware execution gating**.
+
+Performance will be evaluated using grasp success rates, recovery effectiveness, task completion times, positioning accuracy, and the frequency of unsafe or unsuccessful execution attempts across different objects and workspace configurations.
 
 **Status:** Planning and hardware evaluation, with the SO-101 and SO-ARM102 under consideration.
 
