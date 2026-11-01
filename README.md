@@ -2,14 +2,21 @@
 
 ## What I'm working on
 
-### Voice-controlled, AI-assisted robotic arm with grasp recovery
-**Goal:** A tabletop arm that sorts unfamiliar objects into freely placed containers from spoken commands, and detects and recovers from failed grasps.
+### Voice-Controlled, AI-Assisted Robotic Arm with Adaptive Grasp Recovery
 
-**Planned development:** Workspace calibration using ArUco markers, evaluation of iPhone LiDAR for depth measurements, inverse kinematics, motion control, and grasp verification with bounded retry logic. The robot should also ask for clarification when commands are ambiguous.
+**Goal:** Develop a voice-controlled robotic arm capable of identifying and sorting previously unseen objects into freely positioned containers, autonomously verifying grasp success, detecting failures, and adapting its actions through visual feedback.
 
-OpenAI Whisper is planned for speech recognition, while the Gemini API will support visual understanding and task interpretation. I plan to explore ROS 2 to organize perception, task planning, and motion control into separate nodes with clearly defined interfaces, allowing individual components to be tested and replaced independently.
+**Planned Development:** The system will combine workspace calibration using ArUco markers, camera-based object localization, inverse kinematics, and closed-loop visual servoing for precise manipulation. Depth sensing, including stereo vision and dedicated depth cameras, will be evaluated to improve spatial perception and grasp accuracy.
 
-**Status:** Planning and hardware evaluation, with the SO-101 as the preferred arm.
+A key focus will be **adaptive grasp recovery**, combining visual feedback with servo telemetry to detect unsuccessful grasps, estimate possible failure causes, and execute bounded corrective actions rather than simply repeating failed movements.
+
+**AI Integration:** OpenAI Whisper is planned for speech recognition, while the Gemini API will support object recognition, natural-language task interpretation, and clarification of ambiguous commands. A local web interface will provide manual control, live camera feedback, and execution monitoring.
+
+**Software Architecture:** The software will follow a modular architecture separating perception, task planning, motion control, and failure recovery. Hugging Face LeRobot will be evaluated for hardware integration, with ROS 2 and MoveIt considered for more advanced motion planning and collision avoidance.
+
+**Experimental Evaluation:** A central research objective will be to investigate how different feedback mechanisms influence the reliability of autonomous robotic manipulation. Controlled experiments will compare **open-loop grasping, vision-based grasp verification, and combined visual and servo-based feedback with adaptive recovery strategies**. Performance will be evaluated using grasp success rates, recovery effectiveness, positioning accuracy, and task completion times across different objects and container configurations.
+
+**Status:** Planning and hardware evaluation, with the SO-101 and SO-ARM102 under consideration.
 
 ### Magnetic bottles & auroras
 
