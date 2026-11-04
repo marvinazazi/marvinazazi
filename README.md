@@ -1,8 +1,8 @@
 <img src="./marvin-terminal-banner.svg" alt="Hi, I'm Marvin" width="100%">
 
-## What I'm working on
+## 🎯 What I'm working on
 
-### Voice-Controlled, AI-Assisted Robotic Arm with Uncertainty-Aware Control and Adaptive Grasp Recovery
+### 🤖 Voice-Controlled, AI-Assisted Robotic Arm with Uncertainty-Aware Control and Adaptive Grasp Recovery
 
 **Goal:** Develop a voice-controlled robotic arm capable of identifying and sorting previously unseen objects into freely positioned containers. The system aims to autonomously verify grasp success, recover from failures, and make reliable manipulation decisions under uncertainty.
 
@@ -22,7 +22,7 @@ Performance will be evaluated using grasp success rates, recovery effectiveness,
 
 **Status:** Planning and hardware evaluation, with the SO-101 and SO-ARM102 under consideration.
 
-### Magnetic bottles & auroras
+### 🌌 Magnetic bottles & auroras
 
 **Planned approach:** Simulate charged-particle trajectories under the Lorentz force using a Boris integrator and compare selected results with a fourth-order Runge–Kutta method (RK4).
 
@@ -32,7 +32,7 @@ I plan to validate the simulations against analytical trajectories in a uniform 
 
 **Status:** Planning and simulation design.
 
-## Experimental work - 1st place in Germany’s national Jugend testet competition 
+## 🏆 Experimental work - 1st place in Germany’s national Jugend testet competition 
 
 Together with a teammate, I won first place nationally in **Jugend testet 2025**, a competition organized by **Stiftung Warentest**, Germany’s well-known independent consumer testing organization, for our investigation of kitchen paper towels.
 
